@@ -20,7 +20,7 @@
                     <mainClass>Resume.ResumeBuilder</mainClass>
                 </configuration>
             </plugin>
-        </plugins>
+    </plugins>
   </build>
   <dependencies>     
       <!-- All needed dependencies are below -->     
@@ -86,4 +86,5 @@
    </dependencies>
 
 </project>
+
 
