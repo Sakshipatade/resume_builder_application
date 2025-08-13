@@ -40,7 +40,8 @@
          <version>7.0.2</version>     
       </dependency>  
       
-      <dependency>         
+      <dependency>    
+        <!-- layout dependancy--> 
          <groupId>com.itextpdf</groupId>         
          <artifactId>layout</artifactId>         
          <version>7.0.2</version>
@@ -91,6 +92,7 @@
   </dependencies>
 
 </project>
+
 
 
 
