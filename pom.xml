@@ -26,7 +26,8 @@
     
       <!-- All needed dependencies are below -->     
     
-      <dependency>         
+      <dependency> 
+        <!-- Kernel Dependancy --> 
          <groupId>com.itextpdf</groupId>         
          <artifactId>kernel</artifactId>         
          <version>7.0.2</version>     
@@ -89,6 +90,7 @@
   </dependencies>
 
 </project>
+
 
 
 
