@@ -75,7 +75,8 @@
          <version>7.0.2</version>     
       </dependency>  
       
-      <dependency>         
+      <dependency>      
+        <!-- font dependancy --> 
          <groupId>com.itextpdf</groupId>         
          <artifactId>font-asian</artifactId>         
          <version>7.0.2</version>     
@@ -96,6 +97,7 @@
   </dependencies>
 
 </project>
+
 
 
 
