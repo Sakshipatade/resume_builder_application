@@ -11,7 +11,7 @@
   <build>
     <sourceDirectory>src</sourceDirectory>
    <plugins>
-            <!-- Exec plugin to run main class -->
+            <!-- Executable plugin to run main class -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
@@ -86,3 +86,4 @@
    </dependencies>
 
 </project>
+
