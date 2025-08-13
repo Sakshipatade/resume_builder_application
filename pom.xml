@@ -54,7 +54,8 @@
          <version>7.0.2</version>    
       </dependency>  
       
-      <dependency>         
+      <dependency>    
+        <!-- PDF dependancy --> 
          <groupId>com.itextpdf</groupId>         
          <artifactId>pdfa</artifactId>         
          <version>7.0.2</version>     
@@ -93,6 +94,7 @@
   </dependencies>
 
 </project>
+
 
 
 
