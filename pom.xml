@@ -23,7 +23,7 @@
         </plugins>
   </build>
   <dependencies>     
-      <!-- always needed -->     
+      <!-- All needed dependencies are below -->     
       <dependency>         
          <groupId>com.itextpdf</groupId>         
          <artifactId>kernel</artifactId>         
@@ -84,4 +84,5 @@
          <version>7.0.2</version>    
       </dependency> 
    </dependencies>
+
 </project>
