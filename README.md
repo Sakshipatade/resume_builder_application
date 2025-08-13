@@ -8,13 +8,14 @@ The application is very easy to use and flexible, it reduces the need of thinkin
 
 The system is developed to provide an easy means for creating a professional looking resume.
 
-Commands:
+*Commands:
 
 mvn clean install
 
 mvn compile  
 
 mvn exec:java 
+
 
 
 
