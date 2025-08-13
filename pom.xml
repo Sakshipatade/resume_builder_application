@@ -68,7 +68,8 @@
          <version>7.0.2</version>     
       </dependency>  
       
-      <dependency>         
+      <dependency>  
+        <!-- barcode dependancy --> 
          <groupId>com.itextpdf</groupId>         
          <artifactId>barcodes</artifactId>         
          <version>7.0.2</version>     
@@ -95,6 +96,7 @@
   </dependencies>
 
 </project>
+
 
 
 
