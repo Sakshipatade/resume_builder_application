@@ -10,6 +10,9 @@ The system is developed to provide an easy means for creating a professional loo
 
 Commands:
 mvn clean install
+
 mvn compile  
+
 mvn exec:java 
+
 
