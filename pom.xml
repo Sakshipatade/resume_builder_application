@@ -90,7 +90,8 @@
             <version>5.5.10</version>
         </dependency> 
       
-      <dependency>         
+      <dependency>      
+        <!-- hyph dependancy --> 
          <groupId>com.itextpdf</groupId>         
          <artifactId>hyph</artifactId>         
          <version>7.0.2</version>    
@@ -100,6 +101,7 @@
   
 
 </project>
+
 
 
 
