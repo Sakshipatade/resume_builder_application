@@ -3,6 +3,7 @@
   <groupId>iText</groupId>
   <artifactId>iText</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
 
   <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -11,7 +12,7 @@
   <build>
     <sourceDirectory>src</sourceDirectory>
    <plugins>
-            <!-- Exec plugin to run main class -->
+            <!-- Executable plugin to run main class -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
@@ -20,68 +21,97 @@
                     <mainClass>Resume.ResumeBuilder</mainClass>
                 </configuration>
             </plugin>
-        </plugins>
+    </plugins>
   </build>
-  <dependencies>     
-      <!-- always needed -->     
-      <dependency>         
+  <dependencies>  
+    
+      <!-- All needed dependencies are below -->     
+    
+      <dependency> 
+        <!-- Kernel Dependancy --> 
          <groupId>com.itextpdf</groupId>         
          <artifactId>kernel</artifactId>         
          <version>7.0.2</version>     
       </dependency>  
       
-      <dependency>         
+      <dependency>  
+        <!-- Input Output Dependancy --> 
          <groupId>com.itextpdf</groupId>         
          <artifactId>io</artifactId>         
          <version>7.0.2</version>     
       </dependency>  
       
-      <dependency>         
+      <dependency>    
+        <!-- layout dependancy--> 
          <groupId>com.itextpdf</groupId>         
          <artifactId>layout</artifactId>         
          <version>7.0.2</version>
       </dependency>  
       
-      <dependency>         
+      <dependency>    
+        <!-- Forms dependancy --> 
          <groupId>com.itextpdf</groupId>         
          <artifactId>forms</artifactId>         
          <version>7.0.2</version>    
       </dependency>  
       
-      <dependency>         
+      <dependency>    
+        <!-- PDF dependancy --> 
          <groupId>com.itextpdf</groupId>         
          <artifactId>pdfa</artifactId>         
          <version>7.0.2</version>     
       </dependency>  
       
-      <dependency>         
+      <dependency>     
+        <!-- sign dependancy --> 
          <groupId>com.itextpdf</groupId>         
          <artifactId>sign</artifactId>         
          <version>7.0.2</version>     
       </dependency>  
       
-      <dependency>         
+      <dependency>  
+        <!-- barcode dependancy --> 
          <groupId>com.itextpdf</groupId>         
          <artifactId>barcodes</artifactId>         
          <version>7.0.2</version>     
       </dependency>  
       
-      <dependency>         
+      <dependency>      
+        <!-- font dependancy --> 
          <groupId>com.itextpdf</groupId>         
          <artifactId>font-asian</artifactId>         
          <version>7.0.2</version>     
       </dependency> 
       
       <dependency>
+        <!-- itextpdf dependancy --> 
             <groupId>com.itextpdf</groupId>
             <artifactId>itextpdf</artifactId>
             <version>5.5.10</version>
         </dependency> 
       
-      <dependency>         
+      <dependency>      
+        <!-- hyph dependancy --> 
          <groupId>com.itextpdf</groupId>         
          <artifactId>hyph</artifactId>         
          <version>7.0.2</version>    
       </dependency> 
-   </dependencies>
+    
+  </dependencies>
+  
+
 </project>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
