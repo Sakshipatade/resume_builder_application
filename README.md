@@ -1,6 +1,6 @@
 # Resume_Builder
 
-Java Project Using Swing Framwork and iText library.
+**Java Project Using Swing Framwork and iText library.**
 
 This project is developed in Java. It would be useful to simplify the task of creating individuals resume.
 
@@ -19,3 +19,4 @@ mvn exec:java
 
 Generated PDF of Resume Example Link:
 https://drive.google.com/file/d/1oS4LT5c6M9eI41JI9ahbSSDTyw1qjnHN/view?usp=drive_link7fe79006ba89ad02638e6f7c677458a0bc424180
+
